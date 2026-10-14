@@ -16,6 +16,8 @@ public class Main {
             System.out.println("Parsing champions...");
             List<Champion> champions =
                     ChampionParser.parseChampions(json);
+                    
+            ChampionValidator.validate(champions);
 
             if (champions.isEmpty()) {
                 throw new IllegalStateException(

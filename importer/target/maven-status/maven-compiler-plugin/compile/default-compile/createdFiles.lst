@@ -2,4 +2,5 @@ com\kazer0\league\Champion.class
 com\kazer0\league\Main.class
 com\kazer0\league\ChampionParser.class
 com\kazer0\league\ChampionCsvExporter.class
+com\kazer0\league\ChampionValidator.class
 com\kazer0\league\DataDragonClient.class

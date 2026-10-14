@@ -16,7 +16,7 @@ public class ChampionParser {
         JsonNode root = mapper.readTree(json);
         JsonNode champions = root.path("data");
 
-        if (!champions.isObject()) {
+        if (!champions.isObject() || champions.isEmpty()) {
             throw new IllegalArgumentException(
                 "Champion data is missing or invalid."
             );
@@ -30,8 +30,13 @@ public class ChampionParser {
             JsonNode champion = entry.getValue();
             JsonNode stats = champion.path("stats");
 
-            String championId = champion.path("key").asText();
-            String name = champion.path("name").asText();
+            int id = Integer.parseInt(
+                requiredText(champion, "key")
+            );
+
+            String name = requiredText(champion, "name");
+            String resourceType =
+                champion.path("partype").asText("");
 
             List<String> tags = new ArrayList<>();
 
@@ -42,21 +47,41 @@ public class ChampionParser {
             String roles = String.join("|", tags);
 
             Champion championObject = new Champion(
-                Integer.parseInt(championId),
+                id,
                 name,
                 roles,
-                stats.path("hp").asDouble(),
-                stats.path("hpperlevel").asDouble(),
-                stats.path("attackdamage").asDouble(),
-                stats.path("attackdamageperlevel").asDouble(),
-                stats.path("armor").asDouble(),
-                stats.path("armorperlevel").asDouble(),
-                stats.path("spellblock").asDouble(),
-                stats.path("spellblockperlevel").asDouble(),
-                stats.path("attackspeed").asDouble(),
-                stats.path("attackspeedperlevel").asDouble(),
-                stats.path("movespeed").asDouble(),
-                stats.path("attackrange").asDouble(),
+                resourceType,
+
+                requiredStat(stats, "hp"),
+                requiredStat(stats, "hpperlevel"),
+
+                requiredStat(stats, "mp"),
+                requiredStat(stats, "mpperlevel"),
+
+                requiredStat(stats, "hpregen"),
+                requiredStat(stats, "hpregenperlevel"),
+
+                requiredStat(stats, "mpregen"),
+                requiredStat(stats, "mpregenperlevel"),
+
+                requiredStat(stats, "attackdamage"),
+                requiredStat(stats, "attackdamageperlevel"),
+
+                requiredStat(stats, "armor"),
+                requiredStat(stats, "armorperlevel"),
+
+                requiredStat(stats, "spellblock"),
+                requiredStat(stats, "spellblockperlevel"),
+
+                requiredStat(stats, "attackspeed"),
+                requiredStat(stats, "attackspeedperlevel"),
+
+                requiredStat(stats, "crit"),
+                requiredStat(stats, "critperlevel"),
+
+                requiredStat(stats, "movespeed"),
+                requiredStat(stats, "attackrange"),
+
                 "26.20"
             );
 
@@ -64,5 +89,36 @@ public class ChampionParser {
         }
 
         return championList;
+    }
+
+    private static double requiredStat(
+            JsonNode stats,
+            String field
+    ) {
+        JsonNode value = stats.path(field);
+
+        if (!value.isNumber()
+                || !Double.isFinite(value.asDouble())) {
+            throw new IllegalArgumentException(
+                "Missing or invalid statistic: " + field
+            );
+        }
+
+        return value.asDouble();
+    }
+
+    private static String requiredText(
+            JsonNode champion,
+            String field
+    ) {
+        JsonNode value = champion.path(field);
+
+        if (!value.isTextual() || value.asText().isBlank()) {
+            throw new IllegalArgumentException(
+                "Missing or invalid champion field: " + field
+            );
+        }
+
+        return value.asText();
     }
 }
