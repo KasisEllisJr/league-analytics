@@ -1,0 +1,26 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.properties
+
+# Java build output
+target/
+*.class
+
+# React dependencies and builds
+node_modules/
+dist/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Database backups
+*.bak
+*.bacpac
+
+# Local configuration overrides
+application-local.properties
