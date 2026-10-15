@@ -196,6 +196,27 @@ dbo.item_effects
 
 Use a database administrator account for schema creation and data imports. The application itself should connect with a separate **read-only** SQL login such as `league_api_user`.
 
+To setup for the login and password can be done with this script:
+
+```powershell
+USE master;
+GO
+
+CREATE LOGIN league_api_user
+WITH PASSWORD = 'REPLACE_WITH_YOUR_OWN_STRONG_PASSWORD';
+GO
+
+USE league_analytics;
+GO
+
+CREATE USER league_api_user
+FOR LOGIN league_api_user;
+GO
+
+GRANT SELECT ON SCHEMA::dbo TO league_api_user;
+GO
+```
+
 The backend is currently configured for SQL Server on `localhost:1433`. Confirm SQL Server is running, TCP/IP access is enabled, and the target database exists.
 
 ### 3. Configure backend environment variables
@@ -470,8 +491,6 @@ Source references:
 - [Riot Developer Portal](https://developer.riotgames.com/)
 - [Riot Data Dragon documentation](https://developer.riotgames.com/docs/lol#data-dragon)
 - [League of Legends Wiki: Attack Damage](https://wiki.leagueoflegends.com/en-us/List_of_champions/Attack_damage)
-
-Before publishing, review the current Riot developer policies and confirm that your app's branding, asset use, and registration (if applicable) comply.
 
 ---
 
