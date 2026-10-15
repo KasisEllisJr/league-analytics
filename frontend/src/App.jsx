@@ -1,108 +1,71 @@
-import { useEffect, useState } from "react";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-import { championApi, itemApi } from "./services/api";
+import DashboardLayout from "./layouts/DashboardLayout";
+
+import Overview from "./pages/Overview";
+import Champions from "./pages/Champions";
+import ChampionDetails from "./pages/ChampionDetails";
+import Items from "./pages/Items";
+import ItemDetails from "./pages/ItemDetails";
+import ItemComparison from "./pages/ItemComparison";
+import Analytics from "./pages/Analytics";
+import AdvancedAnalytics from "./pages/AdvancedAnalytics";
+import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";
 
 function App() {
-  const [championCount, setChampionCount] = useState(null);
-  const [itemCount, setItemCount] = useState(null);
-
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function loadDashboard() {
-      try {
-        const [champions, items] = await Promise.all([
-          championApi.getCount(),
-          itemApi.getCount(),
-        ]);
-
-        if (!cancelled) {
-          setChampionCount(champions.totalChampions);
-          setItemCount(items.totalItems);
-        }
-
-      } catch (err) {
-        if (!cancelled) {
-          setError(err.message);
-        }
-
-      } finally {
-        if (!cancelled) {
-          setLoading(false);
-        }
-      }
-    }
-
-    loadDashboard();
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
   return (
-    <div className="dashboard">
+    <BrowserRouter>
+      <ScrollToTop />
+        <Routes>
+          <Route element={<DashboardLayout />}>
+            <Route path="/" element={<Overview />} />
 
-      <header className="dashboard-header">
-        <div>
-          <p className="eyebrow">LEAGUE ANALYTICS</p>
-          <h1>Data Overview</h1>
-          <p className="subtitle">
-            League of Legends champion and item statistics
-          </p>
-        </div>
+            <Route
+              path="/champions"
+              element={<Champions />}
+            />
 
-        <div className="patch-badge">
-          PATCH 26.20
-        </div>
-      </header>
+            <Route
+              path="/champions/:id"
+              element={<ChampionDetails />}
+            />
 
-      {loading && (
-        <p role="status">Loading analytics data...</p>
-      )}
+            <Route
+              path="/items"
+              element={<Items />}
+            />
 
-      {error && (
-        <p className="error-message" role="alert">
-          Unable to connect to API: {error}
-        </p>
-      )}
+            <Route
+              path="/items/compare"
+              element={<ItemComparison />}
+            />
 
-      {!loading && !error && (
-        <section className="stats-grid">
+            <Route
+              path="/items/:id"
+              element={<ItemDetails />}
+            />
 
-          <article className="stat-card">
-            <p className="stat-label">TOTAL CHAMPIONS</p>
+            <Route
+              path="/analytics"
+              element={<Analytics />}
+            />
 
-            <h2>{championCount}</h2>
+            <Route
+              path="/analytics/advanced"
+              element={<AdvancedAnalytics />}
+            />
 
-            <p className="stat-description">
-              Champion records stored in SQL Server
-            </p>
-          </article>
-
-          <article className="stat-card">
-            <p className="stat-label">TOTAL ITEMS</p>
-
-            <h2>{itemCount}</h2>
-
-            <p className="stat-description">
-              Item records available for analysis
-            </p>
-          </article>
-
-        </section>
-      )}
-
-      <footer className="dashboard-footer">
-        Java · Spring Boot · SQL Server · React
-      </footer>
-
-    </div>
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,14 +1,38 @@
 const API_BASE_URL = "/api";
 
 async function fetchData(endpoint) {
-  const response = await fetch(
-    `${API_BASE_URL}${endpoint}`
-  );
+  let response;
+
+  try {
+    response = await fetch(`${API_BASE_URL}${endpoint}`, {
+      headers: {
+        Accept: "application/json",
+      },
+    });
+  } catch {
+    throw new Error(
+      "Unable to reach the API server. Check that the backend is running."
+    );
+  }
 
   if (!response.ok) {
-    throw new Error(
-      `API request failed: ${response.status}`
+    const messages = {
+      400: "Invalid request parameters.",
+      404: "The requested resource was not found.",
+      500: "The server encountered an error.",
+      502: "The API service is temporarily unavailable.",
+      503: "The API service is temporarily unavailable.",
+      504: "The API service is temporarily unavailable.",
+    };
+
+    const error = new Error(
+      messages[response.status] ??
+        `Request failed with HTTP status ${response.status}.`
     );
+
+    error.status = response.status;
+
+    throw error;
   }
 
   return response.json();

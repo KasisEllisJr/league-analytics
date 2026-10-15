@@ -24,6 +24,19 @@
             <artifactId>commons-csv</artifactId>
             <version>1.14.1</version>
         </dependency>
+        <!-- HTML parser -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.21.2</version>
+        </dependency>
+
+        <!-- CSV reader and writer -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.14.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -32,7 +45,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <mainClass>com.kazer0.league.Main</mainClass>
+                    <mainClass>${exec.mainClass}</mainClass>
                 </configuration>
             </plugin>
         </plugins>

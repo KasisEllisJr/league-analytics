@@ -8,7 +8,6 @@ class ChampionStatCalculatorTest {
 
     @Test
     void levelOneReturnsBaseStat() {
-
         double result =
             ChampionStatCalculator.calculate(600, 100, 1);
 
@@ -17,7 +16,6 @@ class ChampionStatCalculatorTest {
 
     @Test
     void levelEighteenAppliesFullGrowth() {
-
         double result =
             ChampionStatCalculator.calculate(600, 100, 18);
 
@@ -26,7 +24,6 @@ class ChampionStatCalculatorTest {
 
     @Test
     void levelTwoUsesNonLinearGrowth() {
-
         double result =
             ChampionStatCalculator.calculate(600, 100, 2);
 
@@ -35,7 +32,6 @@ class ChampionStatCalculatorTest {
 
     @Test
     void zeroGrowthPreservesBaseStat() {
-
         double result =
             ChampionStatCalculator.calculate(600, 0, 10);
 
@@ -43,12 +39,27 @@ class ChampionStatCalculatorTest {
     }
 
     @Test
-    void invalidLevelThrowsException() {
+    void levelNineteenIsAccepted() {
+        double result =
+            ChampionStatCalculator.calculate(600, 100, 19);
 
+        assertEquals(2431.5, result, 0.001);
+    }
+
+    @Test
+    void levelTwentyUsesExtendedGrowthFormula() {
+        double result =
+            ChampionStatCalculator.calculate(600, 100, 20);
+
+        assertEquals(2566.5, result, 0.001);
+    }
+
+    @Test
+    void levelTwentyOneThrowsException() {
         assertThrows(
             IllegalArgumentException.class,
             () -> ChampionStatCalculator.calculate(
-                600, 100, 19
+                600, 100, 21
             )
         );
     }

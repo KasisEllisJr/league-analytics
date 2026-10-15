@@ -74,9 +74,9 @@ public class AnalyticsService {
             int level
     ) {
 
-        if (level < 1 || level > 18) {
+        if (level < 1 || level > ChampionStatCalculator.MAX_LEVEL) {
             throw new IllegalArgumentException(
-                "Level must be between 1 and 18."
+                "Level must be between 1 and 20."
             );
         }
 

@@ -4,6 +4,7 @@ com\kazer0\league\Item.class
 com\kazer0\league\ItemEffectParser.class
 com\kazer0\league\DatasetAuditor.class
 com\kazer0\league\ItemRecipeCsvExporter.class
+com\kazer0\league\ChampionAttackDamageGrowthImporter.class
 com\kazer0\league\ItemCsvExporter.class
 com\kazer0\league\ItemDataQualityReport.class
 com\kazer0\league\Main.class

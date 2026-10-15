@@ -2,6 +2,8 @@ package com.kazer0.leagueapi.service;
 
 public final class ChampionStatCalculator {
 
+    public static final int MAX_LEVEL = 20;
+
     private ChampionStatCalculator() {
     }
 
@@ -10,9 +12,9 @@ public final class ChampionStatCalculator {
             double growth,
             int level
     ) {
-        if (level < 1 || level > 18) {
+        if (level < 1 || level > MAX_LEVEL) {
             throw new IllegalArgumentException(
-                "Level must be between 1 and 18"
+                "Level must be between 1 and 20."
             );
         }
 

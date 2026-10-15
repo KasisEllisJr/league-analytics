@@ -47,10 +47,10 @@ public class AnalyticsController {
             @PathVariable int id,
             @PathVariable int level
     ) {
-        if (level < 1 || level > 18) {
+        if (level < 1 || level > 20) {
             return ResponseEntity.badRequest()
                 .body(Map.of(
-                    "error", "Level must be between 1 and 18"
+                    "error", "Level must be between 1 and 20"
                 ));
         }
 
