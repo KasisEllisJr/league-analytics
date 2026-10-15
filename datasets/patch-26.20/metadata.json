@@ -1,0 +1,16 @@
+{
+  "patch" : "26.20",
+  "data_dragon_version" : "16.20.1",
+  "generated_at" : "2026-10-15T00:31:39.625258400Z",
+  "champion_count" : 173,
+  "item_count" : 253,
+  "recipe_relationship_count" : 409,
+  "effect_count" : 242,
+  "validation_status" : "PASSED",
+  "warning_count" : 0,
+  "champion_source" : "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/champion.json",
+  "item_source" : "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/item.json",
+  "wiki_reference" : "https://wiki.leagueoflegends.com/en-us/",
+  "validation_scope" : "Structural and referential checks only; statistical accuracy and source completeness require additional verification.",
+  "warnings" : [ ]
+}

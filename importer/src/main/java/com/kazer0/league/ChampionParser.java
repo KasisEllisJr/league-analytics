@@ -38,6 +38,11 @@ public class ChampionParser {
             String resourceType =
                 champion.path("partype").asText("");
 
+            if (resourceType.isBlank()
+                    && name.equals("Bel'Veth")) {
+                resourceType = "None";
+            }
+
             List<String> tags = new ArrayList<>();
 
             for (JsonNode tag : champion.path("tags")) {

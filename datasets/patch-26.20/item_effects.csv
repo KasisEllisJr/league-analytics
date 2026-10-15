@@ -1,0 +1,243 @@
+item_id,effect_name,effect_description,patch
+1043,Sting,Attacks deal 15 bonus physical damage On-Hit .,26.20
+1054,Enduring Focus,"Restore 4 Health every 5 seconds. After taking damage from a champion, restore Health over 8 seconds.",26.20
+1054,Helping Hand,Attacks deal 5 bonus physical damage to minions.,26.20
+1056,Drain,"Restore 1 Mana every second, increased to 2 Mana per second for 5 seconds after dealing damage to an enemy champion. If you can't gain Mana, heal for 45% of this value instead.",26.20
+1056,Helping Hand,Attacks deal 5 bonus physical damage to minions.,26.20
+1082,Glory,Takedowns grant,26.20
+1082,Glory,", up to 10. 5",26.20
+1082,Glory,is lost on death. Gain 4 Ability Power per,26.20
+1082,Glory,.,26.20
+1083,Reap,"Restore 3 Health On-Hit . Killing minions grants 1 gold , up to 100 . Reaching the limit grants another 350 gold .",26.20
+1101,Jungle Companions,"Summon a Scorchclaw that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and periodically imbues your next Attack or Ability to burn enemies and Slow them. Killing large monsters readies this immediately.",26.20
+1102,Jungle Companions,"Summon a Gustwalker that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and grants Move Speed upon entering brush, increased when killing large monsters.",26.20
+1103,Jungle Companions,"Summon a Mosstomper that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and grants a Shield while out of combat and after killing large monsters.",26.20
+1105,Jungle Companions,"Summon a Mosstomper that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and grants a Shield while out of combat and after killing large monsters.",26.20
+1106,Jungle Companions,"Summon a Gustwalker that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and grants Move Speed upon entering brush, increased when killing large monsters.",26.20
+1107,Jungle Companions,"Summon a Scorchclaw that assists you against monsters. The companion grows as you hunt monsters, empowering your Smite . When fully grown, it completes your Jungle Quest and periodically imbues your next Attack or Ability to burn enemies and Slow them. Killing large monsters readies this immediately.",26.20
+1120,Helping Hand,Attacks deal 5 bonus physical damage to minions.,26.20
+2051,Recovery:,Restores 20 Health every 5 seconds.,26.20
+2051,Undaunted:,Blocks 15 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).,26.20
+2501,Tyranny,Gain 2.5% of your bonus Health as Attack Damage .,26.20
+2501,Retribution,Gain up to 12% increased Attack Damage based on your percent missing Health.,26.20
+2502,Anguish,"Every 4 seconds while in combat with champions, deal magic damage to nearby enemy champions and heal for 250% of the damage dealt.",26.20
+2503,Baleful Blaze,Damaging Abilities deals bonus magic damage for 3 seconds.,26.20
+2503,Blackfire,"For each enemy champion, epic and large monster affected by your",26.20
+2503,Baleful Blaze,", gain 4% Ability Power .",26.20
+2504,Magebane,"After not taking magic damage for 15 seconds, gain a magic shield .",26.20
+2508,Inflame,Damaging Abilities deal 15 bonus magic damage over 3 seconds. Deals an additional 45 magic damage to monsters.,26.20
+2510,Spellblade,"(0s) After using an Ability, your next Attack deals bonus magic damage and heals you for On-Hit and then applies On-Hit effects an additional time.",26.20
+2512,Night Vigil,Gain 30 Ultimate Ability Haste.,26.20
+2512,Opening Barrage,"After casting your Ultimate, your next 3 basic attacks gain 50% Attack Speed and Critically Strike for 80% of your normal Critical Strike damage for 8 seconds. If an attack would already Critically Strike, instead it deals 15% bonus true damage .",26.20
+2517,Famine,Gain Ability Haste based on your Bonus AD.,26.20
+2517,Feast,"When a champion that you damaged recently dies, gain Omnivamp for a moderate duration.",26.20
+2520,Shaped Charge,(0s) Dealing Ability damage to a Champion or Epic Monster deals an additional true damage .,26.20
+2520,Sabotage,"Taking down a champion within 3 seconds of damaging them grants Sabotage for 90 seconds. While you have Sabotage, your next Attack against an Epic Monster or Turret deals an additional true damage over 3 seconds.",26.20
+2523,Magnification,"Deal up to 10% increased damage with Attacks, based on how far away the enemy is (max damage at 500 range).",26.20
+2523,Arcane Aim,"When a champion that you damaged within 3 seconds dies, gain 100 additional attack range for 8 seconds.",26.20
+2524,Fanfare,"Slowing or Immobilizing an enemy champion grants Fanfare for seconds. Fanfare grants you 20 Move Speed . While you have Fanfare, nearby allies, including yourself, gain Attack Speed .",26.20
+2525,Lifeline,"(0s) Taking damage that would reduce your Health below 30% causes you to gain maximum Health for 5 seconds, then heal Health over the duration. While regenerating Health, you gain 15% increased Size, 10% Move Speed, and 25% Tenacity.",26.20
+2526,Harmony,Gain % Heal and Shield Power.,26.20
+2526,Manaflow,"(8s, max 5 charges) Landing Abilities grants 4 max Mana (doubled vs. champions). Transforms into Diadem of Songs at 360 max Mana .",26.20
+3003,Awe,Gain Ability Power equal to 1% bonus Mana.,26.20
+3003,Manaflow,"(8s, max 5 charges) Landing Abilities grants 5 max Mana (doubled vs. champions). Transforms into Seraph's Embrace at 360 max Mana .",26.20
+3004,Awe,Gain bonus Attack Damage .,26.20
+3004,Manaflow,"(8s, max 4 charges) Landing Attacks and Abilities grants 3 max Mana (doubled vs. champions). Transforms into Muramana at 360 max Mana .",26.20
+3008,Slay,"Gain 0.6% Omnivamp on Champion takedown, stacking up to 10 times.",26.20
+3009,Fleetfooted,Reduce the effectiveness of Slows by 25%.,26.20
+3026,Rebirth,"Upon taking lethal damage, restores 50% base Health and 100% max Mana after 4 seconds of Stasis .",26.20
+3032,Practice Makes Lethal,"On-Attack, gain Critical Strike Chance permanently up to 25%.",26.20
+3032,Flurry,"On-Attacking an enemy champion, gain 30% Attack Speed for 6 seconds (30 second cooldown). Attacks reduce this cooldown by 1 second, increased to 2 seconds for Critical Strikes.",26.20
+3033,Grievous Wounds,Dealing physical damage applies 40% Wounds to enemy champions for 3 seconds.,26.20
+3036,Giant Slayer,Deal up to 15% bonus damage against champions based on their bonus Health. Maximum damage bonus reached at 1500 bonus Health.,26.20
+3041,Glory,Takedowns grant,26.20
+3041,Glory,", up to 25. 10",26.20
+3041,Glory,is lost on death. Gain 5 Ability Power per,26.20
+3041,Glory,and 10% Move Speed at 10 or higher,26.20
+3041,Glory,.,26.20
+3044,Rage,Attacking grants Move Speed for 2 seconds.,26.20
+3046,Spectral Waltz,Become Ghosted .,26.20
+3047,Plating,Reduces incoming damage from Attacks by 10%.,26.20
+3050,Frostfire Tempest,Casting your Ultimate summons a storm around you for 5 seconds. The storm deals 30 magic damage per second to enemy champions and Slows them by 30%.,26.20
+3053,The Claws that Catch,Gain bonus Attack Damage .,26.20
+3053,Lifeline,Taking damage that would reduce your Health below 30% grants a decaying Shield for 4.5 seconds.,26.20
+3057,Spellblade,"After using an Ability, your next Attack deals bonus physical damage On-Hit .",26.20
+3065,Boundless Vitality,Heals and Shields on you are increased by 25%.,26.20
+3068,Immolate,"After taking or dealing damage, deal magic damage per second to nearby enemies for 3 seconds.",26.20
+3070,Manaflow,"(8s, max 4 charges) Landing Abilities grants 3 max Mana (doubled vs. champions), up to 360 .",26.20
+3070,Helping Hand,Attacks deal an additional 5 physical damage to minions.,26.20
+3071,Carve,Dealing physical damage to champions reduces the target's Armor by 6% for 6 seconds. (stacks 5 times).,26.20
+3071,Fervor,Dealing physical damage grants Move Speed for 2 seconds.,26.20
+3072,Ichorshield,Convert excess healing from your Lifesteal to a Shield .,26.20
+3073,Hexcharged,Gain 30 Ultimate Ability Haste.,26.20
+3073,Overdrive,"After casting your Ultimate, gain % Attack Speed and % Move Speed for 8 seconds.",26.20
+3074,Cleave,Attacks deal physical damage to nearby enemies. Ravenous Crescent Deal physical damage to enemies around you. Your Life Steal applies to this damage.,26.20
+3075,Thorns,"When struck by an Attack, deal magic damage to the attacker and apply 40% Wounds for 3 seconds if they are a champion.",26.20
+3076,Thorns,"When hit by an Attack, deal magic damage to the attacker and apply 40% Wounds for 3 seconds if they are a champion.",26.20
+3077,Cleave,Attacks deal physical damage to nearby enemies. Crescent Deal physical damage to enemies around you.,26.20
+3078,Spellblade,"After using an Ability, your next Attack deals bonus physical damage On-Hit .",26.20
+3078,Quicken,Attacking grants 20 Move Speed for 2 seconds.,26.20
+3082,Rock Solid,Reduce incoming damage from Attacks.,26.20
+3083,Warmog's Heart,"If you have 2000 bonus Health and have not taken damage within 8 seconds, restore Health per second.",26.20
+3083,Warmog's Vitality,Gain bonus Health equal to 12% of your Item Health ( 0 ).,26.20
+3084,Colossal Consumption,"(0s) per target If an enemy champion is nearby for a few seconds, your next Attack against them deals 70 plus 6% of your max Health as bonus physical damage and grants 10% of the damage as max Health.",26.20
+3084,Goliath,"For each 1000 max Health , gain 3% increased size, up to 30%.",26.20
+3085,Wind's Fury,Attacks fire bolts at 2 additional enemies near the target. Each bolt deals physical damage and applies On-Hit effects.,26.20
+3087,Electrospark,"Your Energized Attacks fire chain lightning, applying On-Hit effects and dealing magic damage to nearby targets.",26.20
+3087,Electroshock,Basic Attacks grant extra Energized stacks.,26.20
+3089,Magical Opus,Increases your total Ability Power by 30% .,26.20
+3091,Fray,Attacks deal bonus magic damage On-Hit .,26.20
+3094,Sharpshooter,Your Energized Attack deals 40 bonus magic damage and gains 35% bonus Attack Range.,26.20
+3095,Energized,Moving and Attacking generates an Energized Attack .,26.20
+3095,Bolt,Your Energized Attack applies bonus magic damage and grants 45% Movement Speed for 1.5 seconds.,26.20
+3100,Spellblade,"After using an Ability, your next Attack deals bonus magic damage On-Hit .",26.20
+3102,Annul,Grants a Spell Shield that blocks the next enemy Ability.,26.20
+3109,Sacrifice,"While near your Worthy ally, take 14% of the damage they receive and heal for 12% of the damage they deal to champions. Pledge (0s) Designate an ally as Worthy .",26.20
+3110,Winter's Caress,Reduce the Attack Speed of nearby champions by 20% .,26.20
+3112,Recovery:,"Restores 10 Mana every 5 seconds. If you can't gain mana, restores 15 Health instead.",26.20
+3115,Icathian Bite,Attacks deal bonus magic damage On-Hit .,26.20
+3116,Rimefrost,Damaging Abilities Slow enemies by 30% for 1 second.,26.20
+3118,Scorn,Gain 20 Ultimate Ability Haste.,26.20
+3118,Hatefog,"Damaging a champion with your Ultimate burns the ground beneath them for 3s, dealing magic damage per second and reducing their Magic Resist .",26.20
+3119,Awe,Gain Health .,26.20
+3119,Manaflow,"(8s, max 4 charges) Landing Attacks and Abilities grant 3 max Mana (doubled vs. champions). Transforms into Fimbulwinter at 360 max Mana .",26.20
+3123,Grievous Wounds,Dealing physical damage to champions applies 40% Wounds for 3 seconds.,26.20
+3124,Wrath,Attacks deal 30 bonus magic damage On-Hit .,26.20
+3124,Seething Strike,"Attacks grant 8% Attack Speed for 4 seconds. (stacks 4 times). While fully stacked, every third Attack applies On-Hit effects twice.",26.20
+3137,Life from Death,"When a champion that you damaged within 3 seconds dies, a nova spreads from their corpse that heals .",26.20
+3142,Haunt,Gain Move Speed while out of combat. Wraith Step Gain Move Speed and Ghosting for seconds.,26.20
+3143,Resilience,Receive 30% less damage from Critical Strikes. Humility Slow nearby enemies by 70% for 2 seconds.,26.20
+3144,Bullseye,Damaging a champion deals bonus magic damage . Attacks reduce this cooldown by 1 second.,26.20
+3145,Revved,Damaging a champion deals bonus magic damage .,26.20
+3147,Madness,"For each second in combat with enemy champions, deal 2% bonus damage, up to 6%.",26.20
+3153,Mist's Edge,Attacks deal a percentage of enemy's current Health as bonus physical damage On-Hit .,26.20
+3153,Clawing Shadows,Attacking a champion 3 times Slows them by 30% for 1 second.,26.20
+3155,Lifeline,Taking magic damage that would reduce your Health below 30% grants a magic damage Shield for 2.5 seconds.,26.20
+3156,Lifeline,Taking magic damage that would reduce your Health below 30% grants a magic damage Shield for 3 seconds and 10% Omnivamp until end of combat.,26.20
+3158,Ionian Insight,Gain 10 Summoner Spell Haste.,26.20
+3161,Dragonforce,Gain 25 Basic Ability Haste.,26.20
+3161,Focused Will,Dealing damage with Abilities increases your Champion's Ability and Passive damage by 3% for 6 seconds. (stacks 4 times).,26.20
+3165,Grievous Wounds,Dealing magic damage to champions applies 40% Wounds for 3 seconds.,26.20
+3168,Slay,"Gain 0.6% Omnivamp on Champion takedown, stacking up to 10 times.",26.20
+3168,Now and Forever,"While above half Health, deal 4% increased damage. While below half Health, gain 12% increased healing, shielding, and regeneration.",26.20
+3170,Fleetfooted,Reduce the effectiveness of Slows by 25%.,26.20
+3170,Noxian Fervor,Gain 5% of your Move Speed as Adaptive Force.,26.20
+3171,Ionian Insight,Gain 20 Summoner Spell Haste.,26.20
+3171,Noxian Haste,"Empowering or protecting allies with abilities, dealing damage to enemy Champions with abilities, or casting a Summoner Spell grants Move Speed for 4 seconds. Noxian Haste can only be triggered once per Ability cast.",26.20
+3173,Noxian Persistence,"(0s) After taking magic damage from a Champion, gain a magic shield for 5 seconds.",26.20
+3174,Plating,Reduces incoming damage from Attacks by 10%.,26.20
+3174,Noxian Endurance,"(0s) After taking physical damage from a Champion, gain a physical shield for 5 seconds.",26.20
+3179,Nightstalker,"After being unseen by enemies briefly, your next attack against a champion deals an additional true damage .",26.20
+3179,Blackout,"When you are near enemy Stealth Wards and traps, reveal them briefly. While revealing wards, your attacks deal bonus damage to them.",26.20
+3181,Skipper,"Every fifth Attack against champions and epic monsters deals bonus physical damage , increased against Structures.",26.20
+3181,Boarding Party,Nearby allied siege and super minions gain Armor and Magic Resist .,26.20
+322526,Harmony,Gain % Heal and Shield Power.,26.20
+322526,Manaflow,"(8s, max 5 charges) Landing Abilities grants 4 max Mana (doubled vs. champions). Transforms into Diadem of Songs at 360 max Mana .",26.20
+323003,Awe,Gain Ability Power equal to 1% bonus Mana.,26.20
+323003,Manaflow,"(8s, max 5 charges) Landing Abilities grants 9.5 max Mana (doubled vs. champions). Transforms into Seraph's Embrace at 360 max Mana .",26.20
+323004,Awe,Gain bonus Attack Damage .,26.20
+323004,Manaflow,"(8s, max 4 charges) Landing Attacks and Abilities grants 6.5 max Mana (doubled vs. champions). Transforms into Muramana at 360 max Mana .",26.20
+323050,Frostfire Tempest,Casting your Ultimate summons a storm around you for 5 seconds. The storm deals 30 magic damage per second to enemy champions and Slows them by 30%.,26.20
+323070,Manaflow,"(8s, max 4 charges) Landing Abilities grants 6.5 max Mana (doubled vs. champions), up to 360 .",26.20
+323070,Helping Hand,Attacks deal an additional 5 physical damage to minions.,26.20
+323075,Thorns,"When struck by an Attack, deal magic damage to the attacker and apply 40% Wounds for 3 seconds if they are a champion.",26.20
+323109,Sacrifice,"While near your Worthy ally, take 14% of the damage they receive and heal for 12% of the damage they deal to champions. Pledge (0s) Designate an ally as Worthy .",26.20
+323110,Winter's Caress,Reduce the Attack Speed of nearby champions by 20% .,26.20
+323119,Awe,Gain Health .,26.20
+323119,Manaflow,"(8s, max 4 charges) Landing Attacks and Abilities grant 6.5 max Mana (doubled vs. champions). Transforms into Fimbulwinter at 360 max Mana .",26.20
+323504,Sanctify,"Healing or Shielding an ally enhances you both for 6 seconds, granting 25% Attack Speed and 20 magic damage On-Hit .",26.20
+324005,Control,Gain 20 Ability Haste for your abilities with Immobilizing effects.,26.20
+324005,Command,"On Immobilizing an enemy champion, mark them as 7% Vulnerable for 4 seconds.",26.20
+326616,Rapids,Healing or Shielding an ally grants you both 40 Ability Power and 15 Ability Haste for 6 seconds.,26.20
+326617,Starlit Grace,"Healing or shielding an ally chains the effect to another ally (excluding yourself), healing 30% or shielding 35% of the original amount.",26.20
+326620,Soul Siphon,Gain 30% of pre-mitigation damage dealt to champions as Soul Charges. Healing or Shielding an ally consumes all,26.20
+326620,Soul Charges,to restore Health .,26.20
+326621,First Light,Gain 2% Heal and Shield Power and 10 Ability Power per 100% Base Mana Regen.,26.20
+326657,Timeless,"This item gains 10 Health , 30 Mana and 3 Ability Power every 60 seconds up to 10 times. Upon reaching max stacks, gain a level.",26.20
+326657,Eternity,Taking damage from champions restores 10% of the damage as Mana . Casting an ability heals for 25% of Mana spent.,26.20
+328020,Unmake,Nearby enemy champions take 12% more magic damage .,26.20
+3302,Shadow,Attacks deal bonus magic damage On-Hit .,26.20
+3302,Juxtaposition,Alternate between Light and Dark Attacks against champions: Light Attacks grant Armor and Magic Resist for 5s. Dark Attacks grant 10% Armor Penetration and Magic Penetration for 5s.,26.20
+3504,Sanctify,"Healing or Shielding an ally enhances you both for 6 seconds, granting 25% Attack Speed and 20 magic damage On-Hit .",26.20
+3508,Spellblade,"After using an Ability, your next Attack deals bonus physical damage and grants Mana On-Hit .",26.20
+3742,Shipwrecker,"While moving, build up to 20 bonus Move Speed . Your next Attack discharges built up Move Speed to deal bonus physical damage .",26.20
+3742,Unsinkable,Reduce the effectiveness of Slows by 15%.,26.20
+3748,Cleave,Attacks deal physical damage on-hit and to enemies behind the target. Titanic Crescent Empower your next,26.20
+3748,Cleave,to deal bonus physical damage On-Hit and deal bonus physical damage to enemies behind the target.,26.20
+3802,Enlighten,Levelling up restores 20% max Mana over 3 seconds.,26.20
+3803,Eternity,Restores 10% of the damage taken from champions as Mana . Casting an Ability heals for 25% of Mana spent.,26.20
+3814,Annul,Grants a Spell Shield that blocks the next enemy Ability.,26.20
+3869,Blessing of the Mountain,"Reduce incoming champion damage for 2 seconds after taking damage from a champion. When the effect ends, slow nearby enemies by 50% for 1.5 seconds. Active (4 charges) Places an Invisible Stealth Ward that grants vision.",26.20
+3870,Dream Maker,Healing or Shielding another ally blows Dream Bubbles to them for 3 seconds. Their next Attack deals bonus magic damage On-Hit and the next damage they take is reduced. Active (4 charges) Places an Invisible Stealth Ward that grants vision.,26.20
+3871,Void Explosion,Dealing Ability damage to a champion causes an explosion that deals magic damage . Active (4 charges) Places an Invisible Stealth Ward that grants vision.,26.20
+3876,Going Sledding,Slowing or Immobilizing an enemy champion near allies restores Health and grants 20% decaying Move Speed for 2.5 seconds to you and a nearby ally. Active (4 charges) Places an Invisible Stealth Ward that grants vision.,26.20
+3877,Spellblade,"After using an Ability, your next Attack deals bonus physical damage On-Hit . If the target is a champion, they take increased damage for 4 seconds. Active (4 charges) Places an Invisible Stealth Ward that grants vision.",26.20
+3916,Grievous Wounds,Dealing magic damage to champions applies 40% Wounds for 3 seconds.,26.20
+4005,Control,Gain 20 Ability Haste for your abilities with Immobilizing effects.,26.20
+4005,Command,"On Immobilizing an enemy champion, mark them as 7% Vulnerable for 4 seconds.",26.20
+4401,Steadfast,Gain 70 Magic Resist and 6% bonus Move Speed after taking magic damage from Champions 8 times.,26.20
+4628,Hypershot,Dealing Ability damage to champions at 600 range or greater Reveals them for 6 seconds.,26.20
+4628,Focus,When,26.20
+4628,Hypershot,"is triggered, Reveal all other enemy champions within 1400 range of them for 3 seconds.",26.20
+4629,Spelldance,Dealing magic or true damage to champions grants Move Speed for 4 seconds.,26.20
+4632,Annul,Grants a Spell Shield that blocks the next enemy Ability.,26.20
+4633,Void Corruption,"For each second in combat with enemy champions, deal 2% bonus damage, up to 8%. At maximum strength, gain Omnivamp .",26.20
+4633,Void Infusion,Gain 2% of your bonus Health as Ability Power .,26.20
+4645,Cinderbloom,"Magic and true damage Critically Strike enemies below 40% Health, dealing 20% increased damage.",26.20
+4646,Stormraider,Dealing 25% of a champion's maximum Health within 2.5s applies,26.20
+4646,Squall,to them.,26.20
+4646,Squall,"After 2 seconds, deal magic damage . If the target dies before",26.20
+4646,Squall,"triggers, it damages nearby enemies.",26.20
+6333,Ignore Pain,A percentage of damage taken is dealt to you over 3 seconds instead.,26.20
+6333,Defy,"When a champion that you damaged within 3 seconds dies, cleanse",26.20
+6333,Ignore Pain's,remaining damage and restore Health over 2 seconds.,26.20
+6609,Hackshorn,Dealing physical damage applies 40% Wounds to enemy champions for 3 seconds.,26.20
+6610,Lightshield Strike,Your first Attack against a champion Critically Strikes and restores Health .,26.20
+6616,Rapids,Healing or Shielding an ally grants you both 40 Ability Power and 15 Ability Haste for 6 seconds.,26.20
+6617,Starlit Grace,"Healing or shielding an ally chains the effect to another ally (excluding yourself), healing 30% or shielding 35% of the original amount.",26.20
+6620,Soul Siphon,Gain 30% of pre-mitigation damage dealt to champions as Soul Charges. Healing or Shielding an ally consumes all,26.20
+6620,Soul Charges,to restore Health .,26.20
+6621,First Light,Gain 2% Heal and Shield Power and 10 Ability Power per 100% Base Mana Regen.,26.20
+663039,Big Hands,"Gain 0-30% Critical Strike Chance, scaling with your bonus Health .",26.20
+663056,Supremacy,"Increases your Health, Armor, Magic Resist, Attack Damage, Ability Power, Attack Speed, and Ability Haste by 20%, increased by 0% perTakedown and -3% per Death after acquiring this item.",26.20
+663058,Immovable as the Earth,"Increase your armor by 20%, and gain Block Chance based on your Armor.",26.20
+663059,Limitless as the Stars,"Increase your Magic Resist by 10%. Reduce all damage you take from non-Basic Attack sources by a percentage, scaling with your Magic Resist up to a cap of 25%.",26.20
+663060,Excoriate,"Each Critical strike deals random bonus Critical Strike Damage , scaling up to 50% of your Critical Strike Chance.",26.20
+6631,Cleave,Attacks deal physical damage to nearby enemies. Breaking Shockwave Deal physical damage and Slow nearby enemies by 35%. Gain 35% decaying Move Speed per champion hit for 3 seconds.,26.20
+663172,Like the Wind,"Gain 5% Move Speed On-Hit for 6 seconds, stacking up to 25% Move Speed.",26.20
+664011,Effervescence,Gain + 1% Attack Speed for every 1% Heal and Shield Power you have.,26.20
+664011,Peppermint,"On-Hit , heal the lowest health ally champion near you for , prioritizing lower health allies.",26.20
+664644,Safeguard,"You are Safeguarded , reducing incoming champion damage by 40%. Safeguard persists for 3 seconds after taking champion damage. (0s). Item Cooldown is restarted when damage is taken from champions.",26.20
+6653,Torment,Damaging Abilities burn enemies for 2% max Health magic damage per second for 3 seconds.,26.20
+6653,Suffering,"For each second in combat with enemy champions, deal 2% bonus damage, up to 6%.",26.20
+6655,Echo,"Damaging Abilities fire 6 Echoes that deal bonus magic damage to the target and nearby enemies. Remaining Echoes fire on the primary target, dealing 20% damage.",26.20
+6657,Timeless,"This item gains 10 Health , 30 Mana and 3 Ability Power every 60 seconds up to 10 times. Upon reaching max stacks, gain a level.",26.20
+6657,Eternity,Taking damage from champions restores 10% of the damage as Mana . Casting an ability heals for 25% of Mana spent.,26.20
+6660,Immolate,"After taking or dealing damage, deal magic damage to nearby enemies for 3 seconds.",26.20
+6662,Spellblade,"After using an Ability, your next Attack deals bonus physical damage On-Hit and creates a frost field for 2s that Slows .",26.20
+6664,Immolate,"After taking or dealing damage, deal magic damage per second to nearby enemies for 3 seconds.",26.20
+6664,Desolate,Killing an enemy deals magic damage around them.,26.20
+6665,Voidborn Resilience,"After 5 seconds of champion combat, increase your bonus Armor and Magic Resist by 30% until end of combat.",26.20
+667101,Playing for Time,Champion takedowns while using Gambler's Blade delays Doom-boss Veigar's arrival by an additional 10 seconds. Deaths while carrying the Blade accelerate it by 10 seconds. (Will not lose time past the 14:30 minute mark),26.20
+667101,Double Down,"Champion takedowns grant a stack, each granting 10 bonus gold on kill. Also take 5% increased damage per stack. Lose all stacks on death.",26.20
+667109,Watch Them Fall,"On Immobilize or Grounding an enemy champion, summon a comet above them. The comet lands after 1 second, dealing additional magic damage in the area. This effect has a 6s cooldown per target per spell cast.",26.20
+667112,Hack the Meat,"Dealing damage shreds 3 Armor and Magic Resist for 5 seconds, stacking up to 10 times. Applying stacks has a 1 second cooldown per Ability.",26.20
+667112,Cannibalize,"On Champion Takedown, steal 10% of their stats and size for the rest of the round.",26.20
+6672,Bring It Down,"Every third Attack deals bonus physical damage On-Hit , increased based on their missing Health.",26.20
+6673,Lifeline,Taking damage that would reduce your Health below 30% grants a Shield for 3 seconds.,26.20
+6675,Transcendence,Attacks reduce Basic Ability cooldowns by 15% of their remaining cooldown.,26.20
+6676,Death,Your damage executes champions that are below 5% Health.,26.20
+6676,Taxes,Champion kills grant 25 bonus gold .,26.20
+667666,Death,Your damage executes champions that are below 5% Health.,26.20
+667666,Taxes,Champion kills grant 25 bonus gold .,26.20
+6692,Ever Rising Moon,Hitting a champion with 2 separate Attacks or Abilities within 2 seconds grants you a Shield for 2 seconds.,26.20
+6694,Bitter Cold,Damaging Abilities Slow enemies below 50% Health by 30% for 1 second.,26.20
+6695,Shield Reaver,Damaging an enemy champion reduces Shields they gain by % for 3 seconds. If they were not already affected by,26.20
+6695,Shield Reaver,", reduce Shields on them by %.",26.20
+6696,Flux,"When a champion that you damaged within 3 seconds dies, refund some of your Ultimate Ability's total cooldown.",26.20
+6697,Eminence,"When a champion that you damaged within 3 seconds dies, gain 12 Attack Damage plus 3 per champion killed for 90 seconds.",26.20
+6698,Cleave,Attacks deal physical damage to nearby enemies. Heretical Cleave Deal physical damage around you.,26.20
+6699,Galvanize,Damaging an Enemy Champions with an ability triggers Energized if it is ready.,26.20
+6699,Firmament,Your Energized Attack deals % target's Current Health as bonus physical damage and grants you bonus Lethality for 4 seconds.,26.20
+8010,Vile Decay,Dealing magic damage with abilities or passives to champions reduces their Magic Resist by 7.5% for 6 seconds. (Stacks 4 times).,26.20
+8020,Unmake,Nearby enemy champions take 12% more magic damage .,26.20

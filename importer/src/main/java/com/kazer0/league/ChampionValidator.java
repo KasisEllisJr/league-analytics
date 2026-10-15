@@ -52,11 +52,11 @@ public class ChampionValidator {
                 );
             }
 
-            /*if (champion.resourceType().isBlank()) {
+            if (champion.resourceType().isBlank()) {
                 throw new IllegalStateException(
                     "Missing resource type for " + name
                 );
-            }*/
+            }
 
             checkPositive(name, "Health",
                     champion.healthBase());
