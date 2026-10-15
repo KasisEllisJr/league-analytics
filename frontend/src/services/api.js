@@ -1,0 +1,74 @@
+const API_BASE_URL = "/api";
+
+async function fetchData(endpoint) {
+  const response = await fetch(
+    `${API_BASE_URL}${endpoint}`
+  );
+
+  if (!response.ok) {
+    throw new Error(
+      `API request failed: ${response.status}`
+    );
+  }
+
+  return response.json();
+}
+
+// Champion API
+export const championApi = {
+  getCount: () => fetchData("/champions/count"),
+
+  getAll: () => fetchData("/champions"),
+
+  getById: (id) =>
+    fetchData(`/champions/${id}`),
+
+  search: (name) =>
+    fetchData(
+      `/champions/search?name=${encodeURIComponent(name)}`
+    ),
+};
+
+// Item API
+export const itemApi = {
+  getCount: () => fetchData("/items/count"),
+
+  getAll: () => fetchData("/items"),
+
+  getById: (id) =>
+    fetchData(`/items/${id}`),
+
+  search: (name) =>
+    fetchData(
+      `/items/search?name=${encodeURIComponent(name)}`
+    ),
+
+  getRecipes: (id) =>
+    fetchData(`/items/${id}/recipes`),
+
+  getEffects: (id) =>
+    fetchData(`/items/${id}/effects`),
+};
+
+// Analytics API
+export const analyticsApi = {
+  getTopHealth: (limit = 10) =>
+    fetchData(
+      `/analytics/champions/top-health?limit=${limit}`
+    ),
+
+  getTopArmor: (limit = 10) =>
+    fetchData(
+      `/analytics/champions/top-armor?limit=${limit}`
+    ),
+
+  getChampionAtLevel: (id, level) =>
+    fetchData(
+      `/analytics/champions/${id}/level/${level}`
+    ),
+
+  compareItems: (firstId, secondId) =>
+    fetchData(
+      `/analytics/items/compare?ids=${firstId},${secondId}`
+    ),
+};
